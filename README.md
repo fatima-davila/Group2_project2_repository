@@ -16,17 +16,34 @@ The Nebraska Department of Transportation (NDOT) currently uses a Microsoft Exce
 - 
 # Part 1 setup and constants
 Each function replicates a specific Excel formula from the NDOT worksheet.
-
 Water Weight Calculation
 Q=(A+B+C+D)×E
 Calculates total water weight based on the water–cementitious ratio.
 
-Cementous Material Volumes
-V=weight/(sg*62.4)
-
+Cementous Material Volumes =weight/(sg*62.4)
 Air and Water volumes
 Air volume = (%air/100)* 27
 water volume = water weight/62.4
+
+Aggragate Weight calculations = 62.4* (%/100)*sg*volume
+
+# The program prompts users sequentially for:
+- Project number
+- Concrete class
+- Cementitious material weights
+- Water–cement ratio
+- Air content
+- Aggregate percentages
+- Specific gravities
+
+# The program has outputs for:
+- Water weight
+- Absolute volumes of all materials
+- Remaining aggregate volume
+- Final aggregate weights
+- Complete material breakdown for 1 cubic yard
+
+
 
 # User Guide
 1. Open the Jupyter Notebook.
