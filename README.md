@@ -1,2 +1,4 @@
 # Group2_project2_repository
-Our project 2 files
+This repository contains Group B's files for CIVE 202 Project #2.
+
+
